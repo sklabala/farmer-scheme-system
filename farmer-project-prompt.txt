@@ -1,0 +1,149 @@
+You are a senior software architect, product manager, and full-stack developer.
+
+Build a COMPLETE, real-world, production-ready project based on the following idea.
+
+-----------------------------------
+📌 PROJECT TITLE:
+Farmer Scheme Information System
+
+-----------------------------------
+📌 BACKGROUND:
+Farmers lack awareness about many government schemes related to:
+- Water irrigation (drip & sprinkler systems)
+- Crop seeds purchase
+- Rural industries (Grha Udyog)
+- Crop damage claims
+- Solar panels
+- Clean water initiatives
+- Drinking water schemes
+
+Even though funds and schemes exist at central and state levels, most farmers only know a few popular ones.
+
+-----------------------------------
+📌 SOLUTION:
+Develop a unified digital platform where:
+- Farmers can register/login
+- Browse schemes by category
+- Get updates on new schemes
+- Receive alerts and notifications
+
+-----------------------------------
+📌 OBJECTIVES:
+- Provide detailed information on government schemes
+- Financial assistance for crops & livestock
+- Support vulnerable farmers
+- Provide market & commodity insights
+- Send disease alerts (plants & animals)
+- Promote energy conservation schemes
+- Enable Direct Benefit Transfer (DBT) awareness
+- Improve stakeholder awareness
+
+-----------------------------------
+📌 FEATURES REQUIRED:
+
+1. 👨‍🌾 Farmer Module:
+   - Registration & login (mobile OTP based)
+   - Profile (location, crop type, land size)
+   - Dashboard with personalized schemes
+
+2. 📂 Scheme Module:
+   - Categories (irrigation, seeds, solar, etc.)
+   - Search & filter
+   - Scheme details (eligibility, benefits, apply link)
+
+3. 🔔 Notification System:
+   - SMS/Push notifications
+   - Alerts for new schemes and deadlines
+
+4. 🌐 Multi-language Support:
+   - Support regional languages (Hindi, Kannada, etc.)
+   - Text-to-Speech functionality
+
+5. 💬 Community Module:
+   - Farmer discussion groups
+   - Q&A forum
+
+6. 📊 Market Insights:
+   - Crop prices
+   - Trends and analytics
+
+7. 🐄 Disease Alerts:
+   - Plant and animal disease updates
+
+8. 🔌 API Layer:
+   - Integration-ready APIs for government systems
+
+-----------------------------------
+📌 TECH STACK (suggest best modern stack):
+- Frontend: React / Next.js
+- Backend: Node.js / Express
+- Database: PostgreSQL / MongoDB
+- Mobile: React Native (optional)
+- Cloud: AWS / GCP
+- Notifications: Firebase / Twilio
+- AI: Optional chatbot for farmer queries
+
+-----------------------------------
+📌 DELIVERABLES REQUIRED:
+
+1. ✅ System Architecture Diagram (professional)
+2. ✅ High-Level Design (HLD)
+3. ✅ Low-Level Design (LLD)
+4. ✅ Database Schema (tables + relationships)
+5. ✅ API Design (REST endpoints with request/response)
+6. ✅ Full Backend Code (Node.js)
+7. ✅ Frontend Code (React UI with modern design)
+8. ✅ Sample UI Screens (Dashboard, Scheme list, Profile)
+9. ✅ Multi-language implementation approach
+10. ✅ Text-to-Speech integration
+11. ✅ Deployment Steps (step-by-step)
+12. ✅ Security considerations (authentication, data privacy)
+13. ✅ Scalability design
+14. ✅ Testing strategy
+
+-----------------------------------
+📌 PROJECT METHODOLOGY:
+- Identify government scheme sources from:
+  * Government Portals: https://agriwelfare.gov.in, https://pmkisan.gov.in, https://pmfby.gov.in, https://www.myscheme.gov.in, https://kisanportal.org, https://ysrrythubharosa.ap.gov.in
+  * News Sources: https://timesofindia.indiatimes.com (for scheme updates and agricultural news)
+- Extract and structure data via API integration where available, manual scraping where necessary
+- Implement regional language support (Hindi, Kannada, Telugu, Tamil, Marathi)
+- Add Text-to-Speech functionality for accessibility
+- Foster farmer engagement via discussion groups and Q&A forum
+- Adopt API-first architecture for easy integration with government systems
+- Establish data validation pipeline to ensure scheme information accuracy
+
+-----------------------------------
+📌 PROJECT STAGES:
+1. Information Gathering
+2. Prototype Development
+3. User Testing
+4. Feedback & Improvements
+
+-----------------------------------
+📌 IMPACT:
+Explain clearly how this system helps:
+- Farmers (awareness, time-saving)
+- Villages (digital inclusion)
+- Students (skills)
+- Teachers (community engagement)
+
+-----------------------------------
+📌 SUSTAINABILITY:
+- Awareness programs
+- Continuous updates
+- Support for 6–9 months post-launch
+
+-----------------------------------
+📌 OUTPUT FORMAT:
+- Use clear sections
+- Include diagrams (ASCII or markdown if images not possible)
+- Provide copy-paste ready code
+- Keep UI modern and clean
+- Make it deployable
+
+-----------------------------------
+
+Make the solution highly practical, scalable, and startup-ready.
+Think like this will be launched in India for real farmers.
+
