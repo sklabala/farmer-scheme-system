@@ -1,0 +1,42 @@
+{
+  "name": "farmer-scheme-backend",
+  "version": "1.0.0",
+  "description": "Farmer Scheme Information System - Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all",
+    "test": "jest",
+    "init:test-db": "node src/initTestDatabase.js",
+    "run:tests": "node tests/runTests.js",
+    "test:report": "node tests/generateReport.js",
+    "test:all": "npm run init:test-db && npm run run:tests && npm run test:report"
+  },
+  "keywords": [
+    "farmer",
+    "scheme",
+    "agriculture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.35.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "puppeteer": "^20.7.2"
+  }
+}

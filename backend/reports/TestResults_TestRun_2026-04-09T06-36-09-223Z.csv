@@ -1,0 +1,9 @@
+Test Run ID,Date,Total Tests,Passed,Failed,Blocked,Pass %
+"TestRun_2026-04-09T06-36-09-223Z","Invalid Date",12,0,8,0,0.00
+
+Test ID,Category,Description,Priority,Status,Result,Execution Time (ms),Screenshot Path
+"TC-Database-001","Database","Test user data persistence","High","Fail","Error: fetch failed",96,"tests/screenshots/database/TC-Database-001_1775716599086.png"
+"TC-API-002","API","Test get schemes endpoint","High","Fail","Error: fetch failed",96,"tests/screenshots/api/TC-API-002_1775716598987.png"
+"TC-API-001","API","Test health check endpoint","High","Fail","Error: fetch failed",123,"tests/screenshots/api/TC-API-001_1775716598875.png"
+"TC-Dashboard-002","Dashboard","Test search schemes","High","Fail","Search input not found",1127,"tests/screenshots/dashboard/TC-Dashboard-002_1775716598674.png"
+"TC-Dashboard-001","Dashboard","Test dashboard page loads","High","Fail","No schemes displayed on dashboard",1130,"tests/screenshots/dashboard/TC-Dashboard-001_1775716597520.png"
