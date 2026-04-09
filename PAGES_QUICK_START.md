@@ -6,6 +6,8 @@ The three new pages have been added to your Farmer Scheme Portal. Here's how to 
 
 ### Starting the Application
 
+
+
 ```bash
 # Terminal 1: Start the Backend
 cd /Users/susantalabala/demo/backend
